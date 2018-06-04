@@ -18,10 +18,6 @@ function api_menu () {
 function salAPI () {
   db_set_active('default');
   $sth = db_query("SELECT nid FROM {node} WHERE type in ('event') ORDER BY created DESC")->fetchAll(PDO::FETCH_ASSOC);
-  // $link = mysqli_connect("localhost", "phpDBAdmin", "QZgBtEKp", "n7");
-  // $query = "SELECT node.nid AS nid FROM node node WHERE node.type in ('nature_blog') ORDER BY node.created DESC $limit";
-  // $sth = mysqli_query($link, $query) or die("Error in Selecting " . mysqli_error($link));
-  //echo $query;
   $rows = array();
   $c = 0;
   foreach ($sth as $r) {
