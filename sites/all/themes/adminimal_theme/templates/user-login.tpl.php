@@ -1,1 +1,1 @@
-<?php print drupal_render_children($form) ?>
+<?php //print drupal_render_children($form) ?>

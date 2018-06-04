@@ -3057,3 +3057,9 @@ body.adminimal-skin-alternative.adminimal-theme.page-admin-structure-features #e
 .adminimal-theme.page-admin-reports-dblog #block-system-help .content {
   margin-bottom: 3em;
 }
+
+#block-system-main > div > div > div.field.field-name-field-event-image.field-type-image.field-label-above > div.field-items > div > img {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
